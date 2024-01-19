@@ -19,7 +19,10 @@ $ npm run start:dev
 
 #Database 
  Create a .env file 
- DB_URL='yourdatabase' 
+ DB_URL='yourdatabase'
+
+ #BaseUrl
+ baseUrl = http://localhost:3000 
 
 
 ```
