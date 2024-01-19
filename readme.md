@@ -38,11 +38,11 @@ $ npm run start:dev
 {
 "images": [
 {
-"_id": "65aa505d9ea99b9a3202376e",
-"url": "https://res.cloudinary.com/dcz8fqwkr/image/upload/v1705660508/Tobams/c2szff1phsccsk1ucdke.png",
-"filename": "Tobams/c2szff1phsccsk1ucdke",
-"mimetype": "image/png",
-"__v": 0
+ "url": "https://example.com",
+        "filename": "Tobams/c2szff1phscc",
+        "mimetype": "image/png",
+        "_id": "imageId",
+        "__v": 0
 }
 ]
 }
