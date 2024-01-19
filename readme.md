@@ -17,6 +17,10 @@ $ npm run start:dev
 # watch mode
 $ npm run start:dev
 
+#Database 
+ Create a .env file 
+ DB_URL='yourdatabase' 
+
 
 ```
 
