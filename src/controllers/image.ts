@@ -31,6 +31,3 @@ export const getImages = async (req: Request, res: Response) => {
     return res.status(error.status || 500).send({ message: error.stack });
   }
 };
-
-
-

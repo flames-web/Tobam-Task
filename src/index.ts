@@ -1,4 +1,4 @@
-import express, {  NextFunction, Request, Response } from 'express';
+import express, { NextFunction, Request, Response } from 'express';
 import { connectDB } from './database/database';
 import dotenv from 'dotenv';
 import router from './routes/image';
@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
   res.send('Hello Tobams Groups. This Raji Olalekan Node js Task');
 });
 
-app.all('*', (req:Request, res:Response, next:NextFunction) => {
+app.all('*', (req: Request, res: Response, next: NextFunction) => {
   const error = new AppError('Page Not Found', 404);
   next(error);
 });
