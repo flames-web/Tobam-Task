@@ -34,18 +34,19 @@ $ npm run start:dev
 
 
     Response
-
-{
-"images": [
-{
- "url": "https://example.com",
+    {
+      "images": [
+      {
+        "url": "https://example.com",
         "filename": "Tobams/c2szff1phscc",
         "mimetype": "image/png",
         "_id": "imageId",
         "__v": 0
-}
-]
-}
+     }
+     ]
+    }
+
+
 
     Errors
     500 Internal Server Error - Something went wrong
