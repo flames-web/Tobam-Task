@@ -77,7 +77,7 @@ $ npm run start:dev
 
 
     Errors Codes
-    201 -Created
+    200 - OK - Image upload sucessful
     400 BAD REQUEST - Invalid Image File
     500 - Internal Server Error - Something went wrong
 
